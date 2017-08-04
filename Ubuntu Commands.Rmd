@@ -1,0 +1,91 @@
+---
+title: "Ubuntu Commands"
+author: "Tobias Romar"
+date: "4 augusti 2017"
+output: html_document
+---
+
+The purpose with document is describe some of the most common commands. 
+
+#### 1. apt — Advanced Packaging Tool
+Used to manage packages. Install, remove and upgrade any package.  
+
+```{r eval = FALSE}
+sudo apt install application-name
+sudo apt-get remove application-name
+sudo apt-get autoclean
+``` 
+
+#### 2. ls -  List
+Find a file, or get a quick overview of what files exist in the current directory.
+
+```{r eval = FALSE}
+ls
+ls -lh
+ls -lS
+``` 
+
+
+#### 3. cd - Change Directory
+Used to change and navigate through directories. Cd will assume you’re in your 
+Home folder. Its use is straightforward: 
+
+```{r eval = FALSE}
+cd Pictures
+cd cats/
+cd -
+cd ..
+cd
+``` 
+
+
+#### 4. sudo - Super User…
+
+You can’t do anything too dramatic to your system without it. sudo lets you 
+run commands, install software, edit protected files, as the superuser.  
+
+```{r eval = FALSE}
+sudo edit /usr/share/applications/application.desktop
+sudo apt-get install application-name
+``` 
+
+#### 5. cat - catenate
+
+The cat command read data from files and outputs its content in the terminal. Using cat is the simplest way to display file contents at the command line.
+
+```{r eval = FALSE}
+cat examplefile.txt
+``` 
+
+cat - reads the text file so that you can see what is in it.
+nano - opens the file so that you can see what is in it, with the option to add or delete some data.
+
+#### 6. mkdir - Make directory 
+
+Used to create a new folder or subfolder.
+```{r eval = FALSE}
+mkdir folderName
+``` 
+
+#### 7. cp - Copy-and-paste
+
+First, you determine the file you want to copy and type the destination location to paste the file
+```{r eval = FALSE}
+cp src des
+``` 
+
+#### 8. rm - Remove
+
+Command to remove your file or even your directory. 
+
+```{r eval = FALSE}
+rm myfile.txt
+``` 
+
+#### 9. grep - Find 
+
+use the grep command to help finding the file based on given keywords.
+
+```{r eval = FALSE}
+grep user /etc/passwd
+``` 

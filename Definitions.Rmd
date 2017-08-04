@@ -1,0 +1,77 @@
+---
+title: "Definitions"
+author: "Tobias Romar"
+date: "4 augusti 2017"
+output: html_document
+---
+
+**TCP/IP:** Conceptual model and set of communications protocols used on the 
+Internet and similar computer networks.  The original protocols in the suite are 
+the **Transmission Control Protocol (TCP)** and the **Internet Protocol (IP)**
+ 
+**IP:** The principal communications protocol in the Internet protocol suite for 
+relaying datagrams across network boundaries. Its routing function enables 
+internetworking, and essentially establishes the Internet. IP has the task of 
+delivering packets from the source host to the destination host solely based on 
+the IP addresses in the packet headers. Each datagram has two components: a 
+header and a payload. The IP header includes source IP address, destination IP 
+address, and other metadata needed to route and deliver the datagram. The 
+payload is the data that is transported. 
+ 
+**TCP:** One of the main protocols of the Internet protocol suite. It originated 
+in the initial network implementation in which it complemented the Internet 
+Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP. 
+It´s a protocol that adjusts its segment size to be smaller than the MTU. TCP 
+provides reliable, ordered, and error-checked delivery of a stream of octets 
+(8 bits of data) between applications running on hosts communicating by an IP 
+network, hence provides a communication service at an intermediate level between 
+an application program and the Internet Protocol.
+
+**Port:** In the internet protocol suite, a port is an endpoint of communication 
+in an operating system. A port is always associated with an IP address of a host 
+and the protocol type of the communication, and thus completes the destination 
+or origination network address of a communication session. A port is identified 
+for each address and protocol by a 16-bit number, commonly known as the port 
+number. For example, an address may be "protocol: TCP, IP address: 1.2.3.4, port 
+number: 80", which may be written 1.2.3.4:80 when the protocol is known from 
+context. Specific port numbers are often used to identify specific services, 
+e.g. File Transfer Protocol (FTP) = 20, Secure Shell (SSH) = 22, Hypertext 
+Transfer Protocol (HTTP) = 80.
+ 
+**File Transfer Protocol (FTP)** is a standard network protocol used for the 
+transfer of computer files between a client and server on a computer network 
+ 
+**Secure Shell (SSH)** is a cryptographic network protocol for operating 
+network services securely over an unsecured network.The best known example 
+application is for remote login to computer systems by users.
+ 
+**Hypertext Transfer Protocol (HTTP)** is an application protocol for 
+distributed, collaborative, and hypermedia information systems. HTTP is the 
+foundation of data communication for the World Wide Web. HTTP functions as a 
+request–response protocol in the client–server computing model. A web browser, 
+for example, may be the client and an application running on a computer hosting 
+a website may be the server. The client submits an HTTP request message to the 
+server. The server, which provides resources such as HTML files and other 
+content, or performs other functions on behalf of the client, returns a response 
+message to the client. The response contains completion status information about 
+the request and may also contain requested content in its message body. 
+
+**HyperText Transport Protocol Secure (HTTPS)**  is the same thing as HTTP, 
+but uses a secure socket layer (SSL) for security purposes. Some examples 
+of sites that use HTTPS include banking and investment websites, e-commerce 
+websites, and most websites that require you to log in. Websites that use the 
+standard HTTP protocol transmit and receive data in an unsecured manner. This 
+means it is possible for someone to eavesdrop on the data being transferred 
+between the user and the Web server. While this is highly unlikely, it is not a 
+comforting thought that someone might be capturing your credit card number or 
+other personal information that you enter on a website. Therefore, secure 
+websites use the HTTPS protocol to encrypt the data being sent back and forth 
+with SSL encryption. If someone were to capture the data being transferred via 
+HTTPS, it would be unrecognizable.
+
+**Secure Sockets Layer (SSL)** certificates are small data files that digitally 
+bind a cryptographic key to an organization’s details. When installed on a web 
+server, it activates the padlock and the https protocol and allows secure 
+connections from a web server to a browser. Typically, SSL is used to secure 
+credit card transactions, data transfer and logins, and more recently is 
+becoming the norm when securing browsing of social media sites.

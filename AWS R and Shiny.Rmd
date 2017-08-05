@@ -144,7 +144,7 @@ sudo apt-get upgrade
  
 Then you need to open the "sources.list" by typing: 
 ```{r eval = FALSE}
-sudo gedit /etc/apt/sources.list
+sudo nano /etc/apt/sources.list
 ```
  
 Add the following (change xenial if you use another version) to the end of 
@@ -290,7 +290,7 @@ sudo -i R
 install.packages(c("tm","memoise","wordcloud"))
 ``` 
  
-##14. Install R Studio Server
+## 14. Install R Studio Server
 
 To download and install RStudio Server open a terminal window and execute 
 the following commands: 
@@ -304,17 +304,26 @@ sudo gdebi rstudio-server-1.0.153-amd64.deb
 Information about a potential newer version: 
 <https://www.rstudio.com/products/rstudio/download-server/>
 
-##15. Log-in to R Studio Server through browser
+## 15. Login to R Studio Server through browser
 
-By default RStudio Server runs on port 8787 and accepts connections from 
-all remote clients. 
+RStudio Server runs on port 8787 so in order to acccess you need
+to open up that port for inbound traffic for the EC2 instance.
 
+After that you should be able to access R Studio Server by typing
+the following into the brows
 ```{r eval = FALSE}
 http://<server-ip>:8787
 ``` 
 
-RStudio will prompt for a username and password, and will authenticate 
-the user by checking the server's **username and password database.**
+When you login to RStudio it willl prompt for a username and password, and will authenticate 
+the user by checking the server's username and password database.
 
+If you have not created a username and password you can do that by typing
+the following in the Ubuntu CLI (in the process you are prompted to select a 
+password):
+
+```{r eval = FALSE}
+sudo adduser
+``` 
  
  

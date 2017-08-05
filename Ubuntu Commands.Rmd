@@ -89,3 +89,14 @@ use the grep command to help finding the file based on given keywords.
 ```{r eval = FALSE}
 grep user /etc/passwd
 ``` 
+
+#### 10. pwd - Location
+
+By typing to followingcommand you get the current location:
+
+```{r eval = FALSE}
+pwd
+``` 
+
+
+

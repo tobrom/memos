@@ -1,2 +1,2 @@
-# rmarkdown_instructions
+# memos
 Collection of different instructions

@@ -37,6 +37,7 @@ own experice and findings.
 13. Deploy Own Shiny App
 14. Install R Studio Server
 15. Log-in to R Studio Server through browser
+16. Additional Packages
 
 
 ## 1. Create an AWS account
@@ -325,5 +326,17 @@ password):
 ```{r eval = FALSE}
 sudo adduser
 ``` 
+ 
+ ## 16. Additional Packages
+ 
+ In order to be able to download some of the packages e.g. from CRAN you
+ need to install some additional packages on the instance.
+ 
+ ```{r eval = FALSE}
+sudo apt-get install libssl-dev
+sudo apt-get install libxml2-dev
+suso apt-get install libcurl4-openssl-dev
+``` 
+ 
  
  
